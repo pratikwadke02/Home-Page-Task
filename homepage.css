@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.discount{
+    text-align: center;
+    height: 20px;
+    background-color: rgb(185, 55, 168);
+    color: white;
+}
+
+#more{
+    display: none;
+}
+
+#read-more{
+    color: #d3244e;
+    font-size: 9px;
+    margin: 0;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+  
+}
+
+.details{
+    position: relative;
+}
+
+.details-header{
+    text-align: center;
+}
