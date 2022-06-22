@@ -107,7 +107,7 @@
     display: flex;
    }
 
-   .row{
+   .row-flex{
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -118,7 +118,7 @@
    .view-all{
     width: 100px;
    }
-   .column{
+   .column-flex{
     display: flex;
     flex-direction: column;
    }
@@ -126,7 +126,7 @@
    .item-card{
     width: 250px;
    }
-   
+
    .item-card p {
     text-align: center;
    }
@@ -134,3 +134,9 @@
     width: 250px;
    }
 
+.style-button{
+    outline: none;
+    border: none;
+    background-color: #d3244e;
+    color: white;
+}
