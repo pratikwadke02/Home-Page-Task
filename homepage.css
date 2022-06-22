@@ -40,3 +40,43 @@
 .details-header{
     text-align: center;
 }
+
+.head-banner{
+    width: 100%;
+    height: auto;
+}
+
+.maylike-products-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 15s linear infinite;
+    width: 180%;
+}
+
+.track:hover {
+    animation-play-state: paused;
+}
+
+.track {
+    animation: marquee 10s linear infinite;
+    width: 550%;
+}
+
+.marquee {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
