@@ -35,12 +35,17 @@
 
 .details{
     position: relative;
+    text-align: center;
 }
 
 .details-header{
     text-align: center;
 }
 
+.bottom-details{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .head-banner{
     width: 100%;
     height: auto;
@@ -125,6 +130,8 @@
 
    .item-card{
     width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
    }
 
    .item-card p {
@@ -139,4 +146,18 @@
     border: none;
     background-color: #d3244e;
     color: white;
+}
+
+.item-container{
+    max-width: 900px;
+}
+
+.heading-row{
+    margin: 5px;
+}
+
+.mid-banner{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
