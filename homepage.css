@@ -210,3 +210,20 @@
     color: rgb(255, 174, 0);
     font-size: x-large;
 }
+
+@media screen and (max-width: 430px) {
+    .flex{
+        flex-direction: column;
+    }
+
+    .row-flex{
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .center-resp{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
