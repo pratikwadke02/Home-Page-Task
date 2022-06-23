@@ -186,3 +186,27 @@
     margin-top: 30px;
 }
 
+.icons-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 70vh;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.icon-item{
+    display: flex;
+    padding: 20px;
+    border: #324d67 1px solid;
+}
+
+.icon-item h5{
+    margin-left: 10px;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    color: rgb(255, 174, 0);
+    font-size: x-large;
+}
