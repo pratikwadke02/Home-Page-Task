@@ -148,12 +148,25 @@
     color: white;
 }
 
+.style-button:hover{
+   color: #d3244e;
+   background-color: #ffafb6;
+   font-weight: bolder;
+}
+
+.view-all:hover{
+    width: 120px;
+    height: 20px;
+}
+
 .item-container{
     max-width: 900px;
 }
 
 .heading-row{
-    margin: 5px;
+    margin: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .mid-banner{
@@ -161,3 +174,15 @@
     height: auto;
     margin-top: 20px;
 }
+
+.footer{
+    background-color: #ffafb6;
+    margin: 0px !important;
+    position: absolute;
+    width: 100%;
+}
+
+.articles{
+    margin-top: 30px;
+}
+
